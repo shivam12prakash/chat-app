@@ -10,7 +10,7 @@ const addUser = ({ id, username, room }) => {
         }
     }
     
-     // Clean the data
+     // Cleaning the User data
     username = username.trim().toLowerCase()
     room = room.trim().toLowerCase()
 
